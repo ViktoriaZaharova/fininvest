@@ -1,0 +1,45 @@
+/*==========  section reviews-page ==========*/
+.reviews-page {
+  margin: 0 0 80px; }
+  .reviews-page .rating {
+    font-size: 14px; }
+  .reviews-page .list-rating {
+    margin: 0 20px 0 0; }
+    .reviews-page .list-rating li {
+      width: 29px;
+      height: 27px;
+      margin: 0 10px 0 0; }
+      .reviews-page .list-rating li:last-child {
+        margin: 0; }
+  .reviews-page .reviews-item {
+    border: none;
+    margin: 12px 0 0;
+    background: #fff;
+    border-radius: 5px;
+    padding: 34px 36px 40px 32px; }
+    .reviews-page .reviews-item h3 {
+      margin: 0 0 12px; }
+    .reviews-page .reviews-item .list-rating {
+      margin: 0 0 4px; }
+      .reviews-page .reviews-item .list-rating:last-child {
+        margin: 0; }
+      .reviews-page .reviews-item .list-rating li {
+        width: 24px;
+        height: 23px;
+        margin: 0 8px 0 0; }
+    .reviews-page .reviews-item .rating {
+      -webkit-box-pack: end;
+          -ms-flex-pack: end;
+              justify-content: flex-end;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+      .reviews-page .reviews-item .rating .date {
+        width: 100%;
+        text-align: right; }
+  .reviews-page .reviews-item__head {
+    margin: 0 0 12px; }
+
+.add-reviews {
+  margin: 0 0 0 auto; }
+
+/*==========  section reviews-page end  ==========*/

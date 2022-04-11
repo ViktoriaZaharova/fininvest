@@ -1,0 +1,95 @@
+/*==========  section products-my ==========*/
+.products-my {
+  margin: 67px 0 50px; }
+
+.stages-work {
+  margin: 0 0 47px; }
+
+.stages-work-box {
+  width: 100%;
+  background: #fff;
+  margin: 0 0 10px;
+  border-radius: 5px;
+  padding: 43px 26px 37px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+  .stages-work-box__icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: relative;
+    z-index: 1;
+    width: 73px; }
+    .stages-work-box__icon img {
+      max-width: 63px;
+      width: 100%; }
+    .stages-work-box__icon:before {
+      content: '';
+      position: absolute;
+      width: 55px;
+      height: 55px;
+      border-radius: 50%;
+      background: #01A2FF;
+      top: -1px;
+      z-index: -1;
+      right: 0; }
+  .stages-work-box__body {
+    width: calc(100% - 73px);
+    padding: 0 0 0 40px; }
+  .stages-work-box h3 {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0 0 12px; }
+  .stages-work-box .box-text {
+    max-width: 875px; }
+
+/*==========  section products-my end  ==========*/
+/*==========  section credits-before ==========*/
+.credits-before {
+  margin: 67px 0 0; }
+  .credits-before h2 {
+    font-size: 35px; }
+  .credits-before .box-text {
+    margin: 23px 0; }
+
+.credits-before-wrapper {
+  position: relative;
+  width: 100%;
+  background: #D1CAFF;
+  border-radius: 5px;
+  padding: 86px 100px; }
+
+.credits-before-img {
+  position: absolute;
+  bottom: 0;
+  right: 13px;
+  max-width: 469px;
+  width: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .credits-before-img img {
+    margin-bottom: -90px; }
+
+/*==========  section credits-before end  ==========*/
+/*==========  section  ==========*/
+/*==========  section end  ==========*/

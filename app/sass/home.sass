@@ -1,0 +1,668 @@
+@import "vars"
+
+/*==========  section home ==========*/
+.home
+  h1
+    margin: 0 0 29px
+    font-size: 25px
+    font-weight: 700
+
+.home-slider
+  background: #EFCED9
+  border-radius: 5px
+  .slick-dots
+    bottom: 19px
+    padding: 0 100px
+    position: absolute
+
+.home-slider-item
+  overflow: hidden
+  z-index: 1
+  position: relative
+  &__content
+    padding: 109px 0 121px 100px
+    max-width: 485px
+  &__img
+    position: absolute
+    right: 0
+    top: 50%
+    transform: translate(0,-50%)
+    max-width: 819px
+    width: 100%
+    display: flex
+    align-items: center
+    justify-content: center
+    z-index: -1
+  &__title
+    font-size: 35px
+    font-weight: bold
+    line-height: 43px
+  .box-text
+    margin: 23px 0
+    font-size: 14px
+    line-height: 23px
+  .btn
+    padding: 0 52px
+
+/*==========  section home end  ==========*/
+
+
+
+/*==========  section courses-wrapper ==========*/
+.courses-wrapper
+  width: 100%
+  background: #fff
+  box-shadow: 0px 0px 14px rgba(0, 53, 102, 0.13)
+  border-radius: 5px
+  display: flex
+  align-items: center
+  flex-wrap: wrap
+  padding: 20px 30px 20px 37px
+
+.course-box
+  display: flex
+  align-items: center
+  padding: 2px 35px
+  border-left: 1px solid #DADADA
+  font-size: 14px
+  &:first-child
+    padding-left: 0
+    border: none
+  &:last-child
+    padding-right: 0
+
+  p
+    font-weight: bold
+    margin: 0 11px 0 9px
+  span
+    color: #9D9D9D
+
+.deviation
+  display: flex
+  align-items: center
+  .svg-icon
+    width: 8px
+    height: 5px
+    display: flex
+    align-items: center
+    justify-content: center
+    margin: 0 0 0 4px
+
+.deviation-up
+  color: #48D704
+  .svg-icon
+    fill: #48D704
+
+.deviation-down
+  color: #D70404
+  .svg-icon
+    fill: #D70404
+
+.all-course
+  margin: 0 0 0 auto
+  font-size: 14px
+
+/*==========  section courses-wrapper end  ==========*/
+
+
+/*==========  section advantages ==========*/
+.advantages
+  margin: 28px 0
+
+.advantages-box
+  background: #fff
+  height: 100%
+  width: 100%
+  box-shadow: 0px 0px 14px rgba(0, 53, 102, 0.13)
+  border-radius: 5px
+  padding: 30px 25px 30px 37px
+  display: flex
+  align-items: center
+  &__icon
+    display: flex
+    align-items: center
+    justify-content: center
+    position: relative
+    width: 50px
+    z-index: 1
+    &:before
+      content: ''
+      position: absolute
+      left: 12px
+      top: -5px
+      border-radius: 50%
+      background: $accent
+      width: 38px
+      height: 38px
+      z-index: -1
+
+  &__body
+    width: calc(100% - 50px)
+    padding: 0 0 0 45px
+
+  h3
+    font-weight: bold
+
+/*==========  section advantages end  ==========*/
+
+
+
+/*==========  section interesting-offers ==========*/
+.interesting-offers
+  h2
+    margin: 0 auto 19px
+
+.nav-tabs
+  width: 100%
+  display: flex
+  align-items: flex-start
+  flex-wrap: wrap
+  border: none
+  font-size: 14px
+  margin: 0 0 27px
+  li
+    margin: 0 34px 0 0
+    &:last-child
+      margin: 0
+    .nav-link
+      border: none
+        radius: 0
+        bottom: 3px solid transparent
+      color: #000
+      padding: 0 0 9px
+      &:hover
+        border-bottom-color: $accent
+      &.active
+        background: transparent
+        border: none
+          bottom: 3px solid $accent
+        color: #000
+        font-weight: bold
+
+.bank-offer
+  background: #fff
+  width: 100%
+  height: 100%
+  box-shadow: 0px 0px 14px rgba(0, 53, 102, 0.13)
+  border-radius: 5px
+  padding: 22px 15px 23px 38px
+  &__head
+    width: 100%
+    display: flex
+    align-items: center
+    margin: 0 0 19px
+  &__logo
+    display: flex
+    align-items: center
+    justify-content: center
+    font-weight: bold
+    background: #C4C4C4
+    color: #fff
+    width: 67px
+    height: 38px
+  &__name
+    padding: 0 0 0 34px
+    width: calc(100% - 67px)
+    font-weight: bold
+
+.rating
+  display: flex
+  align-items: center
+  font-size: 14px
+  color: #9D9D9D
+
+.list-rating
+  display: flex
+  align-items: center
+  margin: 0 7px
+  li
+    display: flex
+    align-items: center
+    justify-content: center
+    margin: 0 3px 0 0
+    &:last-child
+      margin: 0
+    img
+      width: 100%
+
+.offers-banks
+  width: 100%
+  display: flex
+  align-items: flex-start
+  flex-wrap: wrap
+  justify-content: space-between
+  margin: 15px 0
+
+.offers-banks-item
+  color: #9D9D9D
+  font-size: 12px
+  margin: 0 0 12px
+  max-width: 180px
+  p
+    font-weight: bold
+    color: #000
+    font-size: 14px
+    margin: 0 0 2px
+/*==========  section interesting-offers end  ==========*/
+
+
+
+/*==========  section popular-article ==========*/
+.popular-article
+  margin: 35px 0 64px
+
+.article-box
+  width: 100%
+  height: 100%
+  background: #fff
+  box-shadow: 0px 0px 14px rgba(0, 53, 102, 0.13)
+  border-radius: 5px
+  &__img
+    width: 100%
+    display: flex
+    align-items: center
+    justify-content: center
+    overflow: hidden
+    height: 116px
+    img
+      width: 100%
+      height: 100%
+      object-fit: cover
+  &__body
+    width: 100%
+    height: calc(100% - 116px)
+    padding: 14px 27px 27px
+  &__title
+    margin: 0 0 9px
+    font-weight: bold
+    color: #000
+  .box-text
+    line-height: 23px
+    font-size: 14px
+
+.article-box-100
+  padding: 0
+  .article-box__body
+    padding: 33px 27px
+    height: 100%
+/*==========  section popular-article end  ==========*/
+
+
+
+/*==========  section question ==========*/
+.accordion
+  border: none
+    radius: 0
+  background: transparent
+  width: 100%
+  .card
+    background: transparent
+    border: none
+      radius: 0
+    .card-header
+      margin: 0
+    &:last-child
+      .card-header
+        border: none
+  .card-header
+    background: #fff
+    display: flex
+    align-items: center
+    justify-content: space-between
+    padding: 18px 32px
+    border: none
+
+  .collapsed
+    background: transparent
+    border-bottom: 1px solid #E0E0E0
+  .card-body
+    background: #fff
+    padding: 10px 26px 0
+  .box-text
+    line-height: 23px
+    font-size: 14px
+    padding: 0 0 33px
+
+.collapse-text
+  font-weight: bold
+  padding: 0 67px 0 0
+
+.collapse-icon
+  display: flex
+  align-items: center
+  justify-content: center
+  fill: none
+  stroke: $accent
+  width: 16px
+  height: 8px
+  min-width: 16px
+/*==========  section question end  ==========*/
+
+
+
+/*==========  section partners ==========*/
+.partners
+  margin: 70px 0 40px
+  .nav-tabs
+    width: fit-content
+    margin: 0 auto 0 0
+
+.partners-slider
+  .slick-list
+    margin: 0 -15px
+  .slick-slide
+    padding: 0 10px
+    margin: 0 0 20px
+
+.partners-box
+  background: #fff
+  margin: 20px 0 0
+  box-shadow: 0px 0px 14px rgba(0, 53, 102, 0.13)
+  border-radius: 5px
+  width: 100%
+  height: 85px
+  display: flex
+  align-items: center
+  justify-content: center
+  padding: 0 10px
+/*==========  section partners end  ==========*/
+
+
+
+/*==========  section seo-section ==========*/
+.seo-section-wrapper
+  background: #fff
+  border-radius: 3px
+  padding: 44px 27px 35px 36px
+  h2
+    margin: 0 0 25px
+/*==========  section seo-section end  ==========*/
+
+
+
+/*==========  section credits ==========*/
+.credits
+  margin: 72px 0 80px
+  .btn
+    width: 100%
+
+.credits-box
+  width: 100%
+  height: 100%
+  background: #fff
+  box-shadow: 0px 0px 14px rgba(0, 53, 102, 0.13)
+  border-radius: 5px
+  padding: 37px 34px 30px
+  &__head
+    width: 100%
+    display: flex
+    align-items: center
+    margin: 0 0 17px
+  &__number
+    position: relative
+    z-index: 1
+    font-size: 37px
+    font-weight: bold
+    line-height: 23px
+    min-width: 30px
+    &:before
+      content: ''
+      position: absolute
+      left: 3px
+      top: -2px
+      border-radius: 50%
+      background: $accent
+      z-index: -1
+      width: 25px
+      height: 25px
+  &__title
+    width: calc(100% - 30px)
+    padding: 0 0 0 30px
+  h3
+    font-weight: bold
+
+.credits-img
+  display: flex
+  align-items: center
+  justify-content: center
+  width: 100%
+
+/*==========  section credits end  ==========*/
+
+
+
+/*==========  section list-comparison ==========*/
+.table
+  width: 100%
+  border: none
+  background: #FFFFFF
+  border-radius: 3px
+  thead
+    z-index: 1
+    position: relative
+    border-radius: 3px
+    color: #fff
+    font-weight: bold
+    overflow: hidden
+    &:before
+      content: ''
+      position: absolute
+      left: 0
+      top: 0
+      width: 100%
+      height: 100%
+      border-radius: 3px
+      background: #01A2FF
+      z-index: auto
+    th
+      border: none
+  th
+    padding: 15px 20px
+    position: relative
+    vertical-align: middle
+    border: none
+    &:before
+      content: ''
+      position: absolute
+      top: 50%
+      transform: translate(0,-50%)
+      background: #fff
+      width: 1px
+      height: 24px
+      right: 0
+    &:first-child
+      padding-left: 34px
+    &:last-child
+      &:before
+        display: none
+  tbody
+    tr
+      border: none
+      position: relative
+      z-index: 1
+
+      &:nth-child(even)
+        &:after
+          content: ''
+          position: absolute
+          left: 0
+          top: 0
+          width: 100%
+          height: 100%
+          background: #EAF7FF
+          border-radius: 3px
+          z-index: -1
+  td
+    vertical-align: middle
+    border: none
+    padding: 14px 20px
+    width: 16.5%
+    &:first-child
+      padding-left: 34px
+      font-weight: bold
+      width: 33%
+/*==========  section list-comparison end  ==========*/
+
+
+
+/*==========  section experts ==========*/
+.experts
+  margin: 73px 0 27px
+  h2
+    margin: 0 auto 37px
+
+.experts-box
+  background: #fff
+  width: 100%
+  height: 100%
+  padding: 21px 30px 21px 37px
+  &__head
+    display: flex
+    align-items: center
+  &__avatar
+    display: flex
+    align-items: center
+    justify-content: center
+    border-radius: 50%
+    overflow: hidden
+    width: 66px
+    height: 66px
+    background: #C4C4C4
+  &__name
+    width: calc(100% - 66px)
+    padding: 0 0 0 30px
+
+  h3
+    font-weight: bold
+  .position
+    margin: 7px 0 0
+    color: #9D9D9D
+    font-size: 14px
+  &__body
+    margin: 15px 0 0
+  .btn
+    margin: 15px 0 0
+/*==========  section experts end  ==========*/
+
+
+/*==========  section reviews-section ==========*/
+.reviews-section
+  h2
+    margin: 0 0 9px
+  .rating
+    flex-wrap: wrap
+    margin: 0 0 23px
+  .list-rating
+    margin: 0 0 9px
+    width: 100%
+    li
+      width: 16px
+      height: 15px
+      margin: 0 6px 0 0
+
+.reviews-wrapper
+  background: #fff
+  padding: 35px 40px 35px 25px
+  border-radius: 5px
+
+.reviews-item
+  width: 100%
+  padding: 0 0 28px
+  border-bottom: 1px solid #D3D3D3
+  margin: 0 0 22px
+  &:last-child
+    margin: 0
+    padding: 0
+    border: none
+  &__head
+    width: 100%
+    display: flex
+    align-items: center
+    justify-content: space-between
+    flex-wrap: wrap
+    margin: 0 0 20px
+    p
+      color: #9D9D9D
+      font-size: 14px
+    .btn
+      margin: 0
+  h3
+    font-weight: bold
+    margin: 0 0 4px
+
+/*==========  section reviews-section end  ==========*/
+
+
+/*==========  section  ==========*/
+
+/*==========  section end  ==========*/
+
+
+
+/*==========  section  ==========*/
+
+/*==========  section end  ==========*/
+
+
+
+/*==========  section  ==========*/
+
+/*==========  section end  ==========*/
+
+
+/*==========  section popular-offers ==========*/
+.popular-offers
+  padding: 76px 0
+  h2
+    margin: 0 0 38px
+
+.list-arrows
+  font-size: 14px
+  li
+    margin: 0 0 12px
+    &:last-child
+      margin: 0
+    a
+      color: #000
+      position: relative
+      padding: 0 0 0 20px
+      &:before
+        content: ''
+        position: absolute
+        width: 6px
+        height: 12px
+        background: url("../img/arrow-right.svg") no-repeat center
+          size: 100%
+        left: 0
+        top: 0
+      &:hover
+        color: $accent
+
+.popular-offers-box__head
+  width: 100%
+  display: flex
+  align-items: center
+  margin: 0 0 14px
+
+.popular-offers__head-icon
+  position: relative
+  z-index: 1
+  width: 50px
+  &:before
+    content: ''
+    position: absolute
+    right: 0
+    top: -5px
+    background: $accent
+    border-radius: 50%
+    width: 38px
+    height: 38px
+    z-index: -1
+
+.popular-offers__head-name
+  width: calc(100% - 50px)
+  padding: 0 0 0 25px
+  h3
+    font-weight: bold
+
+/*==========  section end  ==========*/

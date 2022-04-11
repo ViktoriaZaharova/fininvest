@@ -1,0 +1,176 @@
+/*==========  Desktop First  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .menu li {
+    margin: 0 15px 0 0; }
+  .logo {
+    max-width: 160px; }
+  .advantages-box__body {
+    padding: 0 0 0 20px; }
+  .advantages-box {
+    padding: 20px; } }
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  header {
+    padding: 15px 0; }
+    header .logo {
+      margin: 0; }
+    header .menu {
+      display: none; }
+  .btn-burger {
+    display: block; }
+  .home-slider-item__content {
+    padding: 100px 0 100px 30px; }
+  .home-slider-item__img {
+    max-width: 700px; }
+  .home-slider .slick-dots {
+    padding: 0 30px; }
+  .course-box {
+    padding: 2px 20px; }
+  .courses-wrapper {
+    padding: 20px; }
+  .collapse-text {
+    padding: 0; }
+  .accordion .card-header {
+    padding: 10px 15px; }
+  .accordion .card-body {
+    padding: 10px 15px; }
+  .credits-img {
+    margin: 0 auto 30px;
+    max-width: 300px; }
+  .credits .btn {
+    max-width: 280px;
+    margin: 0 auto; }
+  .reviews-section-content {
+    margin: 0 0 30px; }
+  footer .logo {
+    margin: 0 0 30px; }
+  .footer-menu {
+    margin: 20px 0; }
+  .form-subscribe {
+    max-width: 300px; }
+    .form-subscribe label {
+      width: 100%; }
+  .credits-before h2 {
+    font-size: 24px; }
+  .credits-before-wrapper {
+    padding: 50px 30px; }
+  .credits-before-img {
+    max-width: 350px;
+    right: 0; }
+  .credits-before-content {
+    max-width: 400px; } }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .home-slider-item__img {
+    max-width: 500px; }
+  .course-box {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    border: none;
+    padding: 0px 12px; }
+  .all-course {
+    margin: 10px auto 0; }
+  .credits-before-img {
+    max-width: 250px; }
+    .credits-before-img img {
+      margin: 0 0 -40px; }
+  .credits-before-content {
+    max-width: 300px; }
+  .credits-before {
+    margin: 50px 0 0; } }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 576px) {
+  .home-slider-item__img {
+    position: relative;
+    right: 0;
+    top: 0;
+    -webkit-transform: none;
+            transform: none;
+    width: 100%;
+    max-width: none;
+    height: auto; }
+  .home-slider-item__content {
+    padding: 30px; }
+  .home-slider-item__title {
+    font-size: 26px;
+    line-height: normal; }
+  .nav-tabs {
+    margin: 0 0 20px; }
+    .nav-tabs li {
+      margin: 0 20px 10px 0; }
+  .bank-offer {
+    padding: 20px; }
+  .bank-offer__name {
+    padding: 0 0 0 20px; }
+  .article-box__img {
+    height: 200px; }
+  .partners {
+    margin: 40px 0 30px; }
+    .partners .nav-tabs {
+      width: 100%; }
+    .partners .slider-nav {
+      margin: 0 auto; }
+  .credits {
+    margin: 50px 0; }
+  .reviews-item__name {
+    margin: 0 0 10px;
+    width: 100%; }
+  .popular-offers {
+    padding: 40px 0; }
+  .credits-before-img {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    max-width: none;
+    width: 100%; }
+  .credits-before-content {
+    max-width: none; }
+  .credits-before-wrapper {
+    padding: 30px 30px 0; }
+  .stages-work-box__body {
+    width: 100%;
+    padding: 20px 0 0; }
+  h1 {
+    font-size: 30px; }
+  .reviews-page .reviews-item .rating {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start; }
+    .reviews-page .reviews-item .rating .date {
+      text-align: left; }
+  .add-reviews {
+    margin: 10px 0 0; }
+  .reviews-page .rating {
+    width: 100%; }
+  .reviews-page .reviews-item {
+    padding: 30px; }
+  .reviews-page {
+    margin: 0 0 40px; }
+  .pagination li {
+    margin: 0 5px 0 0; } }
+
+@media only screen and (max-width: 480px) {
+  header .location {
+    display: none; }
+  header .logo {
+    margin: 0 auto 0 0; }
+  .course-box {
+    padding: 0;
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0 auto 5px; }
+  h2 {
+    font-size: 23px; }
+  h1 {
+    font-size: 26px; } }
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  /**/ }
