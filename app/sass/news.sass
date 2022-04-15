@@ -1,0 +1,157 @@
+@import "vars"
+
+/*==========  section news ==========*/
+.news-page
+  margin: 0 0 46px
+
+.subscribe-box
+  width: 100%
+  box-shadow: 0px 0px 14px rgba(0, 53, 102, 0.13)
+  border-radius: 5px
+  background: #fff
+  padding: 31px 26px
+  h3
+    text-align: center
+    margin: 0 auto 38px
+    font-size: 21px
+    font-weight: bold
+  .form-subscribe
+    input
+      border-radius: 0
+      border-bottom: 1px solid #01A2FF
+      background: transparent
+      color: #9D9D9D
+      padding: 0 0 11px
+      height: 26px
+      font-size: 12px
+      &::placeholder
+        color: #9D9D9D
+    label
+      width: 100%
+      max-width: none
+    button
+      position: relative
+      margin: 40px auto 0
+      font-size: 13px
+      padding: 0 35px
+
+.banner-box
+  width: 100%
+  margin: 42px auto 0
+  background: #C4C4C4
+  height: 340px
+  position: relative
+  font-size: 21px
+  font-weight: bold
+  text-align: center
+  display: flex
+  align-items: center
+  justify-content: center
+
+.news-box
+  padding: 0 0 26px
+  width: 100%
+  border-bottom: 1px solid #ECE9F1
+  display: flex
+  align-items: flex-start
+  flex-wrap: wrap
+  margin: 0 0 27px
+  &__img
+    width: 280px
+    height: 222px
+    display: flex
+    align-items: center
+    justify-content: center
+    overflow: hidden
+    border-radius: 5px
+    img
+      width: 100%
+      height: 100%
+      object-fit: cover
+  &__body
+    width: calc(100% - 280px)
+    padding: 0 0 0 20px
+  &__footer
+    margin: 16px 0 0
+    width: 100%
+    display: flex
+    align-items: flex-start
+    flex-wrap: wrap
+    font-size: 12px
+  &__name
+    font-size: 25px
+    font-weight: bold
+    margin: 0 0 17px
+    color: #000
+    &:hover
+      color: $accent
+  &__head
+    width: 100%
+    display: flex
+    align-items: center
+    margin: 0 0 12px
+  .links-details
+    margin: 0 auto 0 0
+
+.news-box100
+  .news-box__body
+    width: 100%
+    padding: 0
+
+.news-box-author
+  display: flex
+  align-items: flex-start
+  &__photo
+    display: flex
+    align-items: center
+    justify-content: flex-start
+    overflow: hidden
+    border-radius: 50%
+    width: 39px
+    height: 39px
+    img
+      width: 100%
+      height: 100%
+      object-fit: cover
+  &__name
+    width: calc(100% - 39px)
+    padding: 0 0 0 12px
+    font-size: 14px
+    h3
+      font-weight: 500
+      margin: 0 0 4px
+      color: $accent
+    .position
+      color: #9D9D9D
+
+.news-box-date
+  display: flex
+  align-items: center
+  font-weight: 500
+  font-size: 14px
+  color: #9D9D9D
+  margin: 0 0 0 auto
+  &__icon
+    display: flex
+    align-items: center
+    justify-content: center
+    width: 15px
+    height: 15px
+    min-width: 15px
+    margin: 0 10px 0 0
+    fill: $accent
+
+.news-box-info
+  display: flex
+  align-items: center
+  margin: 0 0 0 15px
+  color: #9D9D9D
+  font-size: 14px
+  font-weight: 500
+  &__icon
+    display: flex
+    align-items: center
+    justify-content: center
+    margin: 0 7px 0 0
+
+/*==========  section news end  ==========*/

@@ -8,7 +8,12 @@
   .advantages-box__body {
     padding: 0 0 0 20px; }
   .advantages-box {
-    padding: 20px; } }
+    padding: 20px; }
+  .experts-page {
+    margin: 0 0 100px; }
+  .expert-photo {
+    width: 150px;
+    height: 150px; } }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
@@ -60,7 +65,27 @@
     max-width: 350px;
     right: 0; }
   .credits-before-content {
-    max-width: 400px; } }
+    max-width: 400px; }
+  .expert-col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0 auto 30px; }
+  .news-box__img {
+    width: 180px;
+    height: 190px; }
+  .news-box__body {
+    width: calc(100% - 180px); } }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
@@ -81,7 +106,23 @@
   .credits-before-content {
     max-width: 300px; }
   .credits-before {
-    margin: 50px 0 0; } }
+    margin: 50px 0 0; }
+  .experts-page {
+    margin: 0 0 60px; }
+  .question-expert {
+    padding: 30px; }
+  .nav-tab-comparison .nav-item {
+    -webkit-box-flex: 1;
+        -ms-flex: auto;
+            flex: auto;
+    width: 33.3%;
+    margin: 0 -1px 5px 0; }
+    .nav-tab-comparison .nav-item:first-child .nav-link, .nav-tab-comparison .nav-item:last-child .nav-link {
+      border-radius: 20px; }
+    .nav-tab-comparison .nav-item .nav-link {
+      border-radius: 20px; }
+  .subscribe-box {
+    margin: 30px 0; } }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 576px) {
@@ -152,7 +193,37 @@
   .reviews-page {
     margin: 0 0 40px; }
   .pagination li {
-    margin: 0 5px 0 0; } }
+    margin: 0 5px 0 0; }
+  .question-expert-item {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 0 0 20px;
+    margin: 0 0 20px; }
+    .question-expert-item__left {
+      padding: 0;
+      width: 100%;
+      margin: 0 0 20px; }
+    .question-expert-item .date {
+      text-align: left; }
+  .question-expert {
+    margin: 30px 0 0; }
+  .nav-tab-comparison .nav-item {
+    width: 50%; }
+  .popular-offers-v2 {
+    padding: 0 0 40px; }
+  .news-box__body {
+    width: 100%;
+    padding: 20px 0 0; }
+  .news-box__img {
+    height: 260px;
+    width: 100%; }
+  .news-box__name {
+    font-size: 22px; }
+  .subscribe-box h3 {
+    font-size: 22px;
+    margin: 0 auto 20px; }
+    .subscribe-box h3 br {
+      display: none; } }
 
 @media only screen and (max-width: 480px) {
   header .location {
@@ -169,7 +240,10 @@
   h2 {
     font-size: 23px; }
   h1 {
-    font-size: 26px; } }
+    font-size: 26px; }
+  .offer-box {
+    max-width: 280px;
+    margin: 0 auto; } }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 320px) {

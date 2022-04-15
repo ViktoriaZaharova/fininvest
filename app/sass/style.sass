@@ -135,6 +135,19 @@ button, .btn
     background: $accent
     color: #fff
 
+.btn-prev
+  margin: 0 0 23px
+  .btn-icon
+    width: 16px
+    height: 10px
+    display: flex
+    align-items: center
+    justify-content: center
+    fill: $accent
+    margin: 0 20px 0 0
+  &:hover
+    .btn-icon
+      fill: #fff
 
 .svg-icon
   display: inline-block
@@ -174,6 +187,9 @@ h1
 .mb-20
   margin-bottom: 20px
 
+.mb-15
+  margin-bottom: 15px
+
 .container
   max-width: 1200px
   padding: 0 10px
@@ -181,10 +197,19 @@ h1
 .row
   margin: 0 -10px
 
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto
+  padding: 0 10px
+
 .links-grey
   color: #8C8C8C
   &:hover
     color: $accent
+
+.bg-green
+  background: #19B400
+
+.bg-yellow
+  background: #FFC700
 
 .text-decoration
   text-decoration: underline
@@ -281,6 +306,13 @@ a.color-accent
   &:hover
     color: $grey
 
+.color-grey
+  color: $grey
+
+a.color-grey
+  &:hover
+    color: $accent
+
 .breadcrumb-nav
   width: 100%
   margin: 0 0 20px
@@ -374,3 +406,9 @@ a.color-accent
 
 .page-item:last-child .page-link
   border-radius: 30px
+
+.list-dots, .list-number
+  padding: 0 0 0 20px
+
+.add-reviews
+  margin: 0 0 0 auto

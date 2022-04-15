@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>Finvestor</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:image" content="path/to/image.jpg">
+  <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+
+  <!-- Chrome, Firefox OS and Opera -->
+  <meta name="theme-color" content="#000">
+  <!-- Windows Phone -->
+  <meta name="msapplication-navbutton-color" content="#000">
+  <!-- iOS Safari -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="css/news.css">
+  <link rel="stylesheet" href="css/media.css">
+
+</head>
+
+<body>
+
+<div class="mobile-menu">
+  <div class="btn-close"></div>
+  <a href="index.html" class="logo"><img src="img/logo-grey.svg" alt=""></a>
+  <ul class="menu my-ul">
+    <li><a href="#">Займ на карту</a></li>
+    <li><a href="#">Займ по паспорту</a></li>
+    <li><a href="#">За 1 час</a></li>
+    <li><a href="#">Срочный займ</a></li>
+    <li><a href="#">200 000 рублей</a></li>
+    <li><a href="reviews.html">Отзывы</a></li>
+  </ul>
+
+  <a href="#" class="location">
+          <span class="location-icon"><svg class="svg-icon"><use
+              xlink:href="img/sprite.svg#location"></use></svg></span>
+    <span class="location-text">Санкт-Петербург</span>
+  </a>
+</div>
+
+
+<!--### HEADER ###-->
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 d-flex flex-wrap align-items-center">
+        <a href="index.html" class="logo"><img src="img/logo-grey.svg" alt=""></a>
+        <ul class="menu my-ul">
+          <li><a href="#">Займ на карту</a></li>
+          <li><a href="#">Займ по паспорту</a></li>
+          <li><a href="#">За 1 час</a></li>
+          <li><a href="#">Срочный займ</a></li>
+          <li><a href="#">200 000 рублей</a></li>
+          <li><a href="reviews.html">Отзывы</a></li>
+        </ul>
+
+        <a href="#" class="location">
+          <span class="location-icon"><svg class="svg-icon"><use
+              xlink:href="img/sprite.svg#location"></use></svg></span>
+          <span class="location-text">Санкт-Петербург</span>
+        </a>
+
+        <a href="comparison.html" class="comparison">
+          <span class="comparison-icon"><svg class="svg-icon"><use
+              xlink:href="img/sprite.svg#comparison"></use></svg></span>
+        </a>
+
+        <a href="#" class="btn-search">
+          <svg class="svg-icon">
+            <use xlink:href="img/sprite.svg#search"></use>
+          </svg>
+        </a>
+
+        <div class="btn-burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<!--### HEADER end ###-->
+
+
+<!--### SECTION home ###-->
+<section class="page news-page">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <nav class="breadcrumb-nav">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Главная</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Новости</li>
+          </ol>
+        </nav>
+      </div>
+
+      <div class="col-12">
+        <h1>Топ статей</h1>
+      </div>
+
+    </div>
+
+    <div class="row">
+      <div class="col-12 col-md-8 col-lg-9">
+        <div class="news-box">
+          <div class="news-box__img"><img src="img/article.jpeg" alt=""></div>
+          <div class="news-box__body">
+            <a href="article.html" class="news-box__name">Название статьи</a>
+
+            <div class="news-box__head">
+              <div class="news-box-author">
+                <div class="news-box-author__photo"><img src="img/author.jpg" alt=""></div>
+                <div class="news-box-author__name">
+                  <h3>Имя Фамилия</h3>
+                  <div class="position">Должность</div>
+                </div>
+              </div>
+              
+              <div class="news-box-date">
+                <div class="news-box-date__icon"><svg class="svg-icon"><use xlink:href="img/sprite.svg#calendar"></use></svg></div>
+                <div class="news-box-date__text">18.02.2022</div>
+              </div>
+            </div>
+            
+            <div class="box-text">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </p>
+            </div>
+
+            <div class="news-box__footer">
+              <a href="article.html" class="links-details color-grey">Подробнее</a>
+
+              <div class="news-box-info">
+                <div class="news-box-info__icon"><img src="img/view.svg" alt=""></div>
+                <div class="news-box-info__text">500</div>
+              </div>
+              <a href="#" class="news-box-info">
+                <span class="news-box-info__icon"><img src="img/chat.svg" alt=""></span>
+                <span class="news-box-info__text">5</span>
+              </a>
+            </div>
+          </div>
+
+        </div>
+        <div class="news-box">
+          <div class="news-box__img"><img src="img/article.jpeg" alt=""></div>
+          <div class="news-box__body">
+            <a href="article.html" class="news-box__name">Название статьи и еще пару строк названия статьи</a>
+
+            <div class="news-box__head">
+              <div class="news-box-author">
+                <div class="news-box-author__photo"><img src="img/author.jpg" alt=""></div>
+                <div class="news-box-author__name">
+                  <h3>Имя Фамилия</h3>
+                  <div class="position">Должность</div>
+                </div>
+              </div>
+
+              <div class="news-box-date">
+                <div class="news-box-date__icon"><svg class="svg-icon"><use xlink:href="img/sprite.svg#calendar"></use></svg></div>
+                <div class="news-box-date__text">18.02.2022</div>
+              </div>
+            </div>
+
+            <div class="box-text">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </p>
+            </div>
+
+            <div class="news-box__footer">
+              <a href="article.html" class="links-details color-grey">Подробнее</a>
+
+              <div class="news-box-info">
+                <div class="news-box-info__icon"><img src="img/view.svg" alt=""></div>
+                <div class="news-box-info__text">500</div>
+              </div>
+              <a href="#" class="news-box-info">
+                <span class="news-box-info__icon"><img src="img/chat.svg" alt=""></span>
+                <span class="news-box-info__text">5</span>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="news-box news-box100">
+          <div class="news-box__body">
+            <a href="article.html" class="news-box__name">Название статьи и еще пару строк названия статьи</a>
+
+            <div class="news-box__head">
+              <div class="news-box-author">
+                <div class="news-box-author__photo"><img src="img/author.jpg" alt=""></div>
+                <div class="news-box-author__name">
+                  <h3>Имя Фамилия</h3>
+                  <div class="position">Должность</div>
+                </div>
+              </div>
+
+              <div class="news-box-date">
+                <div class="news-box-date__icon"><svg class="svg-icon"><use xlink:href="img/sprite.svg#calendar"></use></svg></div>
+                <div class="news-box-date__text">18.02.2022</div>
+              </div>
+            </div>
+
+            <div class="box-text">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </p>
+            </div>
+
+            <div class="news-box__footer">
+              <a href="article.html" class="links-details color-grey">Подробнее</a>
+
+              <div class="news-box-info">
+                <div class="news-box-info__icon"><img src="img/view.svg" alt=""></div>
+                <div class="news-box-info__text">500</div>
+              </div>
+              <a href="#" class="news-box-info">
+                <span class="news-box-info__icon"><img src="img/chat.svg" alt=""></span>
+                <span class="news-box-info__text">5</span>
+              </a>
+            </div>
+          </div>
+
+        </div>
+        <div class="news-box news-box100">
+          <div class="news-box__body">
+            <a href="article.html" class="news-box__name">Название статьи и еще пару строк названия статьи</a>
+
+            <div class="news-box__head">
+              <div class="news-box-author">
+                <div class="news-box-author__photo"><img src="img/author.jpg" alt=""></div>
+                <div class="news-box-author__name">
+                  <h3>Имя Фамилия</h3>
+                  <div class="position">Должность</div>
+                </div>
+              </div>
+
+              <div class="news-box-date">
+                <div class="news-box-date__icon"><svg class="svg-icon"><use xlink:href="img/sprite.svg#calendar"></use></svg></div>
+                <div class="news-box-date__text">18.02.2022</div>
+              </div>
+            </div>
+
+            <div class="box-text">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </p>
+            </div>
+
+            <div class="news-box__footer">
+              <a href="article.html" class="links-details color-grey">Подробнее</a>
+
+              <div class="news-box-info">
+                <div class="news-box-info__icon"><img src="img/view.svg" alt=""></div>
+                <div class="news-box-info__text">500</div>
+              </div>
+              <a href="#" class="news-box-info">
+                <span class="news-box-info__icon"><img src="img/chat.svg" alt=""></span>
+                <span class="news-box-info__text">5</span>
+              </a>
+            </div>
+          </div>
+
+        </div>
+        <div class="news-box news-box100">
+          <div class="news-box__body">
+            <a href="article.html" class="news-box__name">Название статьи и еще пару строк названия статьи</a>
+
+            <div class="news-box__head">
+              <div class="news-box-author">
+                <div class="news-box-author__photo"><img src="img/author.jpg" alt=""></div>
+                <div class="news-box-author__name">
+                  <h3>Имя Фамилия</h3>
+                  <div class="position">Должность</div>
+                </div>
+              </div>
+
+              <div class="news-box-date">
+                <div class="news-box-date__icon"><svg class="svg-icon"><use xlink:href="img/sprite.svg#calendar"></use></svg></div>
+                <div class="news-box-date__text">18.02.2022</div>
+              </div>
+            </div>
+
+            <div class="box-text">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </p>
+            </div>
+
+            <div class="news-box__footer">
+              <a href="article.html" class="links-details color-grey">Подробнее</a>
+
+              <div class="news-box-info">
+                <div class="news-box-info__icon"><img src="img/view.svg" alt=""></div>
+                <div class="news-box-info__text">500</div>
+              </div>
+              <a href="#" class="news-box-info">
+                <span class="news-box-info__icon"><img src="img/chat.svg" alt=""></span>
+                <span class="news-box-info__text">5</span>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="news-box">
+          <div class="news-box__img"><img src="img/article.jpeg" alt=""></div>
+          <div class="news-box__body">
+            <a href="article.html" class="news-box__name">Название статьи и еще пару строк названия статьи</a>
+
+            <div class="news-box__head">
+              <div class="news-box-author">
+                <div class="news-box-author__photo"><img src="img/author.jpg" alt=""></div>
+                <div class="news-box-author__name">
+                  <h3>Имя Фамилия</h3>
+                  <div class="position">Должность</div>
+                </div>
+              </div>
+
+              <div class="news-box-date">
+                <div class="news-box-date__icon"><svg class="svg-icon"><use xlink:href="img/sprite.svg#calendar"></use></svg></div>
+                <div class="news-box-date__text">18.02.2022</div>
+              </div>
+            </div>
+
+            <div class="box-text">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </p>
+            </div>
+
+            <div class="news-box__footer">
+              <a href="article.html" class="links-details color-grey">Подробнее</a>
+
+              <div class="news-box-info">
+                <div class="news-box-info__icon"><img src="img/view.svg" alt=""></div>
+                <div class="news-box-info__text">500</div>
+              </div>
+              <a href="#" class="news-box-info">
+                <span class="news-box-info__icon"><img src="img/chat.svg" alt=""></span>
+                <span class="news-box-info__text">5</span>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="news-box news-box100">
+          <div class="news-box__body">
+            <a href="article.html" class="news-box__name">Название статьи и еще пару строк названия статьи</a>
+
+            <div class="news-box__head">
+              <div class="news-box-author">
+                <div class="news-box-author__photo"><img src="img/author.jpg" alt=""></div>
+                <div class="news-box-author__name">
+                  <h3>Имя Фамилия</h3>
+                  <div class="position">Должность</div>
+                </div>
+              </div>
+
+              <div class="news-box-date">
+                <div class="news-box-date__icon"><svg class="svg-icon"><use xlink:href="img/sprite.svg#calendar"></use></svg></div>
+                <div class="news-box-date__text">18.02.2022</div>
+              </div>
+            </div>
+
+            <div class="box-text">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </p>
+            </div>
+
+            <div class="news-box__footer">
+              <a href="article.html" class="links-details color-grey">Подробнее</a>
+
+              <div class="news-box-info">
+                <div class="news-box-info__icon"><img src="img/view.svg" alt=""></div>
+                <div class="news-box-info__text">500</div>
+              </div>
+              <a href="#" class="news-box-info">
+                <span class="news-box-info__icon"><img src="img/chat.svg" alt=""></span>
+                <span class="news-box-info__text">5</span>
+              </a>
+            </div>
+          </div>
+
+        </div>
+        <div class="news-box news-box100">
+          <div class="news-box__body">
+            <a href="article.html" class="news-box__name">Название статьи и еще пару строк названия статьи</a>
+
+            <div class="news-box__head">
+              <div class="news-box-author">
+                <div class="news-box-author__photo"><img src="img/author.jpg" alt=""></div>
+                <div class="news-box-author__name">
+                  <h3>Имя Фамилия</h3>
+                  <div class="position">Должность</div>
+                </div>
+              </div>
+
+              <div class="news-box-date">
+                <div class="news-box-date__icon"><svg class="svg-icon"><use xlink:href="img/sprite.svg#calendar"></use></svg></div>
+                <div class="news-box-date__text">18.02.2022</div>
+              </div>
+            </div>
+
+            <div class="box-text">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </p>
+            </div>
+
+            <div class="news-box__footer">
+              <a href="article.html" class="links-details color-grey">Подробнее</a>
+
+              <div class="news-box-info">
+                <div class="news-box-info__icon"><img src="img/view.svg" alt=""></div>
+                <div class="news-box-info__text">500</div>
+              </div>
+              <a href="#" class="news-box-info">
+                <span class="news-box-info__icon"><img src="img/chat.svg" alt=""></span>
+                <span class="news-box-info__text">5</span>
+              </a>
+            </div>
+          </div>
+
+        </div>
+        <div class="news-box news-box100">
+          <div class="news-box__body">
+            <a href="article.html" class="news-box__name">Название статьи и еще пару строк названия статьи</a>
+
+            <div class="news-box__head">
+              <div class="news-box-author">
+                <div class="news-box-author__photo"><img src="img/author.jpg" alt=""></div>
+                <div class="news-box-author__name">
+                  <h3>Имя Фамилия</h3>
+                  <div class="position">Должность</div>
+                </div>
+              </div>
+
+              <div class="news-box-date">
+                <div class="news-box-date__icon"><svg class="svg-icon"><use xlink:href="img/sprite.svg#calendar"></use></svg></div>
+                <div class="news-box-date__text">18.02.2022</div>
+              </div>
+            </div>
+
+            <div class="box-text">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </p>
+            </div>
+
+            <div class="news-box__footer">
+              <a href="article.html" class="links-details color-grey">Подробнее</a>
+
+              <div class="news-box-info">
+                <div class="news-box-info__icon"><img src="img/view.svg" alt=""></div>
+                <div class="news-box-info__text">500</div>
+              </div>
+              <a href="#" class="news-box-info">
+                <span class="news-box-info__icon"><img src="img/chat.svg" alt=""></span>
+                <span class="news-box-info__text">5</span>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+        <nav class="pagination-nav">
+          <ul class="pagination">
+            <li class="page-item active" aria-current="page">
+              <span class="page-link">1</span>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">4</a></li>
+            <li class="page-item"><a class="page-link" href="#">5</a></li>
+            <li class="page-item"><a class="page-link" href="#">6</a></li>
+            <li class="page-item"><a class="page-link" href="#">7</a></li>
+            <li class="page-item"><a class="page-link" href="#">...</a></li>
+            <li class="page-item"><a class="page-link page-link-next" href="#">Дальше</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="col-12 col-md-4 col-lg-3">
+        <div class="subscribe-box">
+          <h3>Подпишись <br>
+            на новости</h3>
+
+          <form method="post" class="form-subscribe">
+            <label>
+              <input type="text" placeholder="E-mail" name="mail">
+            </label>
+            <button type="submit" class="btn btn-accent">Подписаться</button>
+          </form>
+        </div>
+
+        <div class="banner-box">
+          <h3>Реклама</h3>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!--### SECTION home END ###-->
+
+<!--### FOOTER  ###-->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-3">
+        <a href="index.html" class="logo"><img src="img/logo.svg" alt=""></a>
+
+        <a href="tel:+78000000000" class="phone">8 800 000 00 00</a>
+
+        <div class="schedule">Ежедневно с 9:00 до 21:00</div>
+      </div>
+
+      <div class="col-6 col-lg-2">
+        <ul class="footer-menu my-ul">
+          <li><a href="#">О нас</a></li>
+          <li><a href="#">Отзывы</a></li>
+          <li><a href="#">Новости</a></li>
+          <li><a href="#">Карта сайта</a></li>
+          <li><a href="#">Как это работает</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-lg-4">
+        <ul class="footer-menu my-ul">
+          <li><a href="#">Наши эксперты</a></li>
+          <li><a href="#">Кредиты</a></li>
+          <li><a href="#">Карты</a></li>
+          <li><a href="#">Займы</a></li>
+          <li><a href="#">Размещение рекламы</a></li>
+        </ul>
+      </div>
+
+      <div class="col-12 col-lg-3">
+        <form method="post" class="form-subscribe">
+          <label>
+            <input type="text" placeholder="E-mail" name="mail">
+          </label>
+          <button type="submit" class="btn btn-accent">Подписаться</button>
+        </form>
+
+        <div class="share">
+          <p>Поделиться</p>
+          <ul class="list-social my-ul">
+            <li><a href="#"><img src="img/vk.png" alt=""></a></li>
+            <li><a href="#"><img src="img/tw.png" alt=""></a></li>
+            <li><a href="#"><img src="img/fb.png" alt=""></a></li>
+          </ul>
+        </div>
+
+        <a href="#" class="links-grey text-decoration" target="_blank">Политика конфиденциальности</a>
+      </div>
+    </div>
+  </div>
+</footer>
+<!--### FOOTER END ###-->
+
+<script src="js/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="js/common.js"></script>
+
+</body>
+</html>

@@ -1,5 +1,3 @@
-
-
 $('.btn-burger').on('click', function () {
    $('.mobile-menu').fadeToggle();
 });

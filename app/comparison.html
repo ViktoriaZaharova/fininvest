@@ -1,0 +1,1046 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>Finvestor</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:image" content="path/to/image.jpg">
+  <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+
+  <!-- Chrome, Firefox OS and Opera -->
+  <meta name="theme-color" content="#000">
+  <!-- Windows Phone -->
+  <meta name="msapplication-navbutton-color" content="#000">
+  <!-- iOS Safari -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="css/comparison.css">
+  <link rel="stylesheet" href="css/media.css">
+
+</head>
+
+<body>
+
+<div class="mobile-menu">
+  <div class="btn-close"></div>
+  <a href="index.html" class="logo"><img src="img/logo-grey.svg" alt=""></a>
+  <ul class="menu my-ul">
+    <li><a href="#">Займ на карту</a></li>
+    <li><a href="#">Займ по паспорту</a></li>
+    <li><a href="#">За 1 час</a></li>
+    <li><a href="#">Срочный займ</a></li>
+    <li><a href="#">200 000 рублей</a></li>
+    <li><a href="reviews.html">Отзывы</a></li>
+  </ul>
+
+  <a href="#" class="location">
+          <span class="location-icon"><svg class="svg-icon"><use
+              xlink:href="img/sprite.svg#location"></use></svg></span>
+    <span class="location-text">Санкт-Петербург</span>
+  </a>
+</div>
+
+
+<!--### HEADER ###-->
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 d-flex flex-wrap align-items-center">
+        <a href="index.html" class="logo"><img src="img/logo-grey.svg" alt=""></a>
+        <ul class="menu my-ul">
+          <li><a href="#">Займ на карту</a></li>
+          <li><a href="#">Займ по паспорту</a></li>
+          <li><a href="#">За 1 час</a></li>
+          <li><a href="#">Срочный займ</a></li>
+          <li><a href="#">200 000 рублей</a></li>
+          <li><a href="reviews.html">Отзывы</a></li>
+        </ul>
+
+        <a href="#" class="location">
+          <span class="location-icon"><svg class="svg-icon"><use
+              xlink:href="img/sprite.svg#location"></use></svg></span>
+          <span class="location-text">Санкт-Петербург</span>
+        </a>
+
+        <a href="comparison.html" class="comparison">
+          <span class="comparison-icon"><svg class="svg-icon"><use
+              xlink:href="img/sprite.svg#comparison"></use></svg></span>
+        </a>
+
+        <a href="#" class="btn-search">
+          <svg class="svg-icon">
+            <use xlink:href="img/sprite.svg#search"></use>
+          </svg>
+        </a>
+
+        <div class="btn-burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<!--### HEADER end ###-->
+
+
+<!--### SECTION home ###-->
+<section class="page experts-page">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <nav class="breadcrumb-nav">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Главная</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Сравнение предложений</li>
+          </ol>
+        </nav>
+      </div>
+
+      <div class="col-12">
+        <h1>Сравнение предложений</h1>
+      </div>
+
+      <div class="col-12">
+        <ul class="nav nav-tabs nav-tab-comparison" role="tablist">
+          <li class="nav-item" role="presentation">
+            <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
+               aria-controls="pills-home" aria-selected="true">Займ на карту</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
+               aria-controls="pills-profile" aria-selected="false">По паспорту</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab"
+               aria-controls="pills-contact" aria-selected="false">200 000 ₽</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link" id="pills-4-tab" data-toggle="pill" href="#pills-4" role="tab"
+               aria-controls="pills-4" aria-selected="false">За 1 час</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link" id="pills-5-tab" data-toggle="pill" href="#pills-5" role="tab"
+               aria-controls="pills-5" aria-selected="false">Срочный займ</a>
+          </li>
+        </ul>
+        <div class="tab-content tab-content-comparison" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+            <div class="comparison-slider">
+              <div class="slide">
+                <div class="offer-box">
+                  <div class="offer-box__head">
+                    <div class="offer-box__logo">Logo</div>
+                    <h3 class="offer-box__title">Название банка </h3>
+                    <div class="offer-box__comment">Комментарий</div>
+                  </div>
+
+                  <div class="offer-box__body">
+                    <ul class="list-characteristics my-ul">
+                      <li>
+                        <p>Lorem ipsum dolor si</p><strong>500 000 - 50 00 000 ₽ </strong>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                    </ul>
+
+                    <a href="#" class="btn btn-accent">Оформить</a>
+                  </div>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="offer-box">
+                  <div class="offer-box__head">
+                    <div class="offer-box__logo">Logo</div>
+                    <h3 class="offer-box__title">Название банка </h3>
+                    <div class="offer-box__comment">Комментарий</div>
+                  </div>
+
+                  <div class="offer-box__body">
+                    <ul class="list-characteristics my-ul">
+                      <li>
+                        <p>Lorem ipsum dolor si</p><strong>500 000 - 50 00 000 ₽ </strong>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                    </ul>
+
+                    <a href="#" class="btn btn-accent">Оформить</a>
+                  </div>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="offer-box">
+                  <div class="offer-box__head">
+                    <div class="offer-box__logo">Logo</div>
+                    <h3 class="offer-box__title">Название банка </h3>
+                    <div class="offer-box__comment">Комментарий</div>
+                  </div>
+
+                  <div class="offer-box__body">
+                    <ul class="list-characteristics my-ul">
+                      <li>
+                        <p>Lorem ipsum dolor si</p><strong>500 000 - 50 00 000 ₽ </strong>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                    </ul>
+
+                    <a href="#" class="btn btn-accent">Оформить</a>
+                  </div>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="offer-box">
+                  <div class="offer-box__head">
+                    <div class="offer-box__logo">Logo</div>
+                    <h3 class="offer-box__title">Название банка </h3>
+                    <div class="offer-box__comment">Комментарий</div>
+                  </div>
+
+                  <div class="offer-box__body">
+                    <ul class="list-characteristics my-ul">
+                      <li>
+                        <p>Lorem ipsum dolor si</p><strong>500 000 - 50 00 000 ₽ </strong>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                    </ul>
+
+                    <a href="#" class="btn btn-accent">Оформить</a>
+                  </div>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="offer-box">
+                  <div class="offer-box__head">
+                    <div class="offer-box__logo">Logo</div>
+                    <h3 class="offer-box__title">Название банка </h3>
+                    <div class="offer-box__comment">Комментарий</div>
+                  </div>
+
+                  <div class="offer-box__body">
+                    <ul class="list-characteristics my-ul">
+                      <li>
+                        <p>Lorem ipsum dolor si</p><strong>500 000 - 50 00 000 ₽ </strong>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                    </ul>
+
+                    <a href="#" class="btn btn-accent">Оформить</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+            <div class="comparison-slider">
+              <div class="slide">
+                <div class="offer-box">
+                  <div class="offer-box__head">
+                    <div class="offer-box__logo">Logo</div>
+                    <h3 class="offer-box__title">Название банка </h3>
+                    <div class="offer-box__comment">Комментарий</div>
+                  </div>
+
+                  <div class="offer-box__body">
+                    <ul class="list-characteristics my-ul">
+                      <li>
+                        <p>Lorem ipsum dolor si</p><strong>500 000 - 50 00 000 ₽ </strong>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                    </ul>
+
+                    <a href="#" class="btn btn-accent">Оформить</a>
+                  </div>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="offer-box">
+                  <div class="offer-box__head">
+                    <div class="offer-box__logo">Logo</div>
+                    <h3 class="offer-box__title">Название банка </h3>
+                    <div class="offer-box__comment">Комментарий</div>
+                  </div>
+
+                  <div class="offer-box__body">
+                    <ul class="list-characteristics my-ul">
+                      <li>
+                        <p>Lorem ipsum dolor si</p><strong>500 000 - 50 00 000 ₽ </strong>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                    </ul>
+
+                    <a href="#" class="btn btn-accent">Оформить</a>
+                  </div>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="offer-box">
+                  <div class="offer-box__head">
+                    <div class="offer-box__logo">Logo</div>
+                    <h3 class="offer-box__title">Название банка </h3>
+                    <div class="offer-box__comment">Комментарий</div>
+                  </div>
+
+                  <div class="offer-box__body">
+                    <ul class="list-characteristics my-ul">
+                      <li>
+                        <p>Lorem ipsum dolor si</p><strong>500 000 - 50 00 000 ₽ </strong>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                    </ul>
+
+                    <a href="#" class="btn btn-accent">Оформить</a>
+                  </div>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="offer-box">
+                  <div class="offer-box__head">
+                    <div class="offer-box__logo">Logo</div>
+                    <h3 class="offer-box__title">Название банка </h3>
+                    <div class="offer-box__comment">Комментарий</div>
+                  </div>
+
+                  <div class="offer-box__body">
+                    <ul class="list-characteristics my-ul">
+                      <li>
+                        <p>Lorem ipsum dolor si</p><strong>500 000 - 50 00 000 ₽ </strong>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                    </ul>
+
+                    <a href="#" class="btn btn-accent">Оформить</a>
+                  </div>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="offer-box">
+                  <div class="offer-box__head">
+                    <div class="offer-box__logo">Logo</div>
+                    <h3 class="offer-box__title">Название банка </h3>
+                    <div class="offer-box__comment">Комментарий</div>
+                  </div>
+
+                  <div class="offer-box__body">
+                    <ul class="list-characteristics my-ul">
+                      <li>
+                        <p>Lorem ipsum dolor si</p><strong>500 000 - 50 00 000 ₽ </strong>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                    </ul>
+
+                    <a href="#" class="btn btn-accent">Оформить</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+            <div class="comparison-slider">
+              <div class="slide">
+                <div class="offer-box">
+                  <div class="offer-box__head">
+                    <div class="offer-box__logo">Logo</div>
+                    <h3 class="offer-box__title">Название банка </h3>
+                    <div class="offer-box__comment">Комментарий</div>
+                  </div>
+
+                  <div class="offer-box__body">
+                    <ul class="list-characteristics my-ul">
+                      <li>
+                        <p>Lorem ipsum dolor si</p><strong>500 000 - 50 00 000 ₽ </strong>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                    </ul>
+
+                    <a href="#" class="btn btn-accent">Оформить</a>
+                  </div>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="offer-box">
+                  <div class="offer-box__head">
+                    <div class="offer-box__logo">Logo</div>
+                    <h3 class="offer-box__title">Название банка </h3>
+                    <div class="offer-box__comment">Комментарий</div>
+                  </div>
+
+                  <div class="offer-box__body">
+                    <ul class="list-characteristics my-ul">
+                      <li>
+                        <p>Lorem ipsum dolor si</p><strong>500 000 - 50 00 000 ₽ </strong>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                    </ul>
+
+                    <a href="#" class="btn btn-accent">Оформить</a>
+                  </div>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="offer-box">
+                  <div class="offer-box__head">
+                    <div class="offer-box__logo">Logo</div>
+                    <h3 class="offer-box__title">Название банка </h3>
+                    <div class="offer-box__comment">Комментарий</div>
+                  </div>
+
+                  <div class="offer-box__body">
+                    <ul class="list-characteristics my-ul">
+                      <li>
+                        <p>Lorem ipsum dolor si</p><strong>500 000 - 50 00 000 ₽ </strong>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                    </ul>
+
+                    <a href="#" class="btn btn-accent">Оформить</a>
+                  </div>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="offer-box">
+                  <div class="offer-box__head">
+                    <div class="offer-box__logo">Logo</div>
+                    <h3 class="offer-box__title">Название банка </h3>
+                    <div class="offer-box__comment">Комментарий</div>
+                  </div>
+
+                  <div class="offer-box__body">
+                    <ul class="list-characteristics my-ul">
+                      <li>
+                        <p>Lorem ipsum dolor si</p><strong>500 000 - 50 00 000 ₽ </strong>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                    </ul>
+
+                    <a href="#" class="btn btn-accent">Оформить</a>
+                  </div>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="offer-box">
+                  <div class="offer-box__head">
+                    <div class="offer-box__logo">Logo</div>
+                    <h3 class="offer-box__title">Название банка </h3>
+                    <div class="offer-box__comment">Комментарий</div>
+                  </div>
+
+                  <div class="offer-box__body">
+                    <ul class="list-characteristics my-ul">
+                      <li>
+                        <p>Lorem ipsum dolor si</p><strong>500 000 - 50 00 000 ₽ </strong>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                    </ul>
+
+                    <a href="#" class="btn btn-accent">Оформить</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pills-4" role="tabpanel" aria-labelledby="pills-4-tab">
+            <div class="comparison-slider">
+              <div class="slide">
+                <div class="offer-box">
+                  <div class="offer-box__head">
+                    <div class="offer-box__logo">Logo</div>
+                    <h3 class="offer-box__title">Название банка </h3>
+                    <div class="offer-box__comment">Комментарий</div>
+                  </div>
+
+                  <div class="offer-box__body">
+                    <ul class="list-characteristics my-ul">
+                      <li>
+                        <p>Lorem ipsum dolor si</p><strong>500 000 - 50 00 000 ₽ </strong>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                    </ul>
+
+                    <a href="#" class="btn btn-accent">Оформить</a>
+                  </div>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="offer-box">
+                  <div class="offer-box__head">
+                    <div class="offer-box__logo">Logo</div>
+                    <h3 class="offer-box__title">Название банка </h3>
+                    <div class="offer-box__comment">Комментарий</div>
+                  </div>
+
+                  <div class="offer-box__body">
+                    <ul class="list-characteristics my-ul">
+                      <li>
+                        <p>Lorem ipsum dolor si</p><strong>500 000 - 50 00 000 ₽ </strong>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                    </ul>
+
+                    <a href="#" class="btn btn-accent">Оформить</a>
+                  </div>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="offer-box">
+                  <div class="offer-box__head">
+                    <div class="offer-box__logo">Logo</div>
+                    <h3 class="offer-box__title">Название банка </h3>
+                    <div class="offer-box__comment">Комментарий</div>
+                  </div>
+
+                  <div class="offer-box__body">
+                    <ul class="list-characteristics my-ul">
+                      <li>
+                        <p>Lorem ipsum dolor si</p><strong>500 000 - 50 00 000 ₽ </strong>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                    </ul>
+
+                    <a href="#" class="btn btn-accent">Оформить</a>
+                  </div>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="offer-box">
+                  <div class="offer-box__head">
+                    <div class="offer-box__logo">Logo</div>
+                    <h3 class="offer-box__title">Название банка </h3>
+                    <div class="offer-box__comment">Комментарий</div>
+                  </div>
+
+                  <div class="offer-box__body">
+                    <ul class="list-characteristics my-ul">
+                      <li>
+                        <p>Lorem ipsum dolor si</p><strong>500 000 - 50 00 000 ₽ </strong>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                    </ul>
+
+                    <a href="#" class="btn btn-accent">Оформить</a>
+                  </div>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="offer-box">
+                  <div class="offer-box__head">
+                    <div class="offer-box__logo">Logo</div>
+                    <h3 class="offer-box__title">Название банка </h3>
+                    <div class="offer-box__comment">Комментарий</div>
+                  </div>
+
+                  <div class="offer-box__body">
+                    <ul class="list-characteristics my-ul">
+                      <li>
+                        <p>Lorem ipsum dolor si</p><strong>500 000 - 50 00 000 ₽ </strong>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                    </ul>
+
+                    <a href="#" class="btn btn-accent">Оформить</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pills-5" role="tabpanel" aria-labelledby="pills-5-tab">
+            <div class="comparison-slider">
+              <div class="slide">
+                <div class="offer-box">
+                  <div class="offer-box__head">
+                    <div class="offer-box__logo">Logo</div>
+                    <h3 class="offer-box__title">Название банка </h3>
+                    <div class="offer-box__comment">Комментарий</div>
+                  </div>
+
+                  <div class="offer-box__body">
+                    <ul class="list-characteristics my-ul">
+                      <li>
+                        <p>Lorem ipsum dolor si</p><strong>500 000 - 50 00 000 ₽ </strong>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                    </ul>
+
+                    <a href="#" class="btn btn-accent">Оформить</a>
+                  </div>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="offer-box">
+                  <div class="offer-box__head">
+                    <div class="offer-box__logo">Logo</div>
+                    <h3 class="offer-box__title">Название банка </h3>
+                    <div class="offer-box__comment">Комментарий</div>
+                  </div>
+
+                  <div class="offer-box__body">
+                    <ul class="list-characteristics my-ul">
+                      <li>
+                        <p>Lorem ipsum dolor si</p><strong>500 000 - 50 00 000 ₽ </strong>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                    </ul>
+
+                    <a href="#" class="btn btn-accent">Оформить</a>
+                  </div>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="offer-box">
+                  <div class="offer-box__head">
+                    <div class="offer-box__logo">Logo</div>
+                    <h3 class="offer-box__title">Название банка </h3>
+                    <div class="offer-box__comment">Комментарий</div>
+                  </div>
+
+                  <div class="offer-box__body">
+                    <ul class="list-characteristics my-ul">
+                      <li>
+                        <p>Lorem ipsum dolor si</p><strong>500 000 - 50 00 000 ₽ </strong>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                    </ul>
+
+                    <a href="#" class="btn btn-accent">Оформить</a>
+                  </div>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="offer-box">
+                  <div class="offer-box__head">
+                    <div class="offer-box__logo">Logo</div>
+                    <h3 class="offer-box__title">Название банка </h3>
+                    <div class="offer-box__comment">Комментарий</div>
+                  </div>
+
+                  <div class="offer-box__body">
+                    <ul class="list-characteristics my-ul">
+                      <li>
+                        <p>Lorem ipsum dolor si</p><strong>500 000 - 50 00 000 ₽ </strong>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                    </ul>
+
+                    <a href="#" class="btn btn-accent">Оформить</a>
+                  </div>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="offer-box">
+                  <div class="offer-box__head">
+                    <div class="offer-box__logo">Logo</div>
+                    <h3 class="offer-box__title">Название банка </h3>
+                    <div class="offer-box__comment">Комментарий</div>
+                  </div>
+
+                  <div class="offer-box__body">
+                    <ul class="list-characteristics my-ul">
+                      <li>
+                        <p>Lorem ipsum dolor si</p><strong>500 000 - 50 00 000 ₽ </strong>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                      <li>
+                        <p>Lorem ipsum dolor si</p><span>Lorem ipsum dolor si</span>
+                      </li>
+                    </ul>
+
+                    <a href="#" class="btn btn-accent">Оформить</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!--### SECTION home END ###-->
+
+
+<!--### SECTION popular-offers ###-->
+<section class="popular-offers popular-offers-v2">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2>Популярные предложения</h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 col-md-6 col-lg-3 mb-30">
+        <div class="popular-offers-box">
+          <div class="popular-offers-box__head">
+            <div class="popular-offers__head-icon"><img src="img/icon1.svg" alt=""></div>
+            <div class="popular-offers__head-name">
+              <h3>Микрозайм</h3>
+            </div>
+          </div>
+          <div class="popular-offers-box__body">
+            <ul class="list-arrows my-ul">
+              <li><a href="#">Название категории</a></li>
+              <li><a href="#">Название категории и еще слово </a></li>
+              <li><a href="#">Название категории</a></li>
+              <li><a href="#">Название категории и еще слово </a></li>
+              <li><a href="#">Название категории</a></li>
+              <li><a href="#">Название категории</a></li>
+              <li><a href="#">Название категории</a></li>
+              <li><a href="#">Название категории и еще слово </a></li>
+              <li><a href="#">Название категории</a></li>
+              <li><a href="#">Название категории и еще слово </a></li>
+              <li><a href="#">Название категории</a></li>
+              <li><a href="#">Название категории</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3 mb-30">
+        <div class="popular-offers-box">
+          <div class="popular-offers-box__head">
+            <div class="popular-offers__head-icon"><img src="img/icon2.svg" alt=""></div>
+            <div class="popular-offers__head-name">
+              <h3>Кредитные <br>карты</h3>
+            </div>
+          </div>
+          <div class="popular-offers-box__body">
+            <ul class="list-arrows my-ul">
+              <li><a href="#">Название категории</a></li>
+              <li><a href="#">Название категории и еще слово </a></li>
+              <li><a href="#">Название категории</a></li>
+              <li><a href="#">Название категории и еще слово </a></li>
+              <li><a href="#">Название категории</a></li>
+              <li><a href="#">Название категории</a></li>
+              <li><a href="#">Название категории</a></li>
+              <li><a href="#">Название категории и еще слово </a></li>
+              <li><a href="#">Название категории</a></li>
+              <li><a href="#">Название категории в несколько строк и еще пару слов</a></li>
+              <li><a href="#">Название категории</a></li>
+              <li><a href="#">Название категории</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3 mb-30">
+        <div class="popular-offers-box">
+          <div class="popular-offers-box__head">
+            <div class="popular-offers__head-icon"><img src="img/icon3.svg" alt=""></div>
+            <div class="popular-offers__head-name">
+              <h3>Кредиты</h3>
+            </div>
+          </div>
+          <div class="popular-offers-box__body">
+            <ul class="list-arrows my-ul">
+              <li><a href="#">Название категории</a></li>
+              <li><a href="#">Название категории и еще слово </a></li>
+              <li><a href="#">Название категории</a></li>
+              <li><a href="#">Название категории и еще слово </a></li>
+              <li><a href="#">Название категории</a></li>
+              <li><a href="#">Название категории</a></li>
+              <li><a href="#">Название категории</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3 mb-30">
+        <div class="popular-offers-box">
+          <div class="popular-offers-box__head">
+            <div class="popular-offers__head-icon"><img src="img/icon4.svg" alt=""></div>
+            <div class="popular-offers__head-name">
+              <h3>Автокредиты</h3>
+            </div>
+          </div>
+          <div class="popular-offers-box__body">
+            <ul class="list-arrows my-ul">
+              <li><a href="#">Название категории</a></li>
+              <li><a href="#">Название категории и еще слово </a></li>
+              <li><a href="#">Название категории</a></li>
+              <li><a href="#">Название категории и еще слово </a></li>
+              <li><a href="#">Название категории</a></li>
+              <li><a href="#">Название категории</a></li>
+              <li><a href="#">Название категории</a></li>
+              <li><a href="#">Название категории и еще слово </a></li>
+              <li><a href="#">Название категории</a></li>
+              <li><a href="#">Название категории в несколько строк и еще пару слов</a></li>
+              <li><a href="#">Название категории</a></li>
+              <li><a href="#">Название категории</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--### SECTION popular-offers END ###-->
+
+<!--### FOOTER  ###-->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-3">
+        <a href="index.html" class="logo"><img src="img/logo.svg" alt=""></a>
+
+        <a href="tel:+78000000000" class="phone">8 800 000 00 00</a>
+
+        <div class="schedule">Ежедневно с 9:00 до 21:00</div>
+      </div>
+
+      <div class="col-6 col-lg-2">
+        <ul class="footer-menu my-ul">
+          <li><a href="#">О нас</a></li>
+          <li><a href="#">Отзывы</a></li>
+          <li><a href="#">Новости</a></li>
+          <li><a href="#">Карта сайта</a></li>
+          <li><a href="#">Как это работает</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-lg-4">
+        <ul class="footer-menu my-ul">
+          <li><a href="#">Наши эксперты</a></li>
+          <li><a href="#">Кредиты</a></li>
+          <li><a href="#">Карты</a></li>
+          <li><a href="#">Займы</a></li>
+          <li><a href="#">Размещение рекламы</a></li>
+        </ul>
+      </div>
+
+      <div class="col-12 col-lg-3">
+        <form method="post" class="form-subscribe">
+          <label>
+            <input type="text" placeholder="E-mail" name="mail">
+          </label>
+          <button type="submit" class="btn btn-accent">Подписаться</button>
+        </form>
+
+        <div class="share">
+          <p>Поделиться</p>
+          <ul class="list-social my-ul">
+            <li><a href="#"><img src="img/vk.png" alt=""></a></li>
+            <li><a href="#"><img src="img/tw.png" alt=""></a></li>
+            <li><a href="#"><img src="img/fb.png" alt=""></a></li>
+          </ul>
+        </div>
+
+        <a href="#" class="links-grey text-decoration" target="_blank">Политика конфиденциальности</a>
+      </div>
+    </div>
+  </div>
+</footer>
+<!--### FOOTER END ###-->
+
+<script src="js/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="js/comparison.js"></script>
+<script src="js/common.js"></script>
+
+</body>
+</html>

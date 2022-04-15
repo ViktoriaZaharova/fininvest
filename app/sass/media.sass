@@ -17,6 +17,12 @@
     padding: 20px
 
 
+  .experts-page
+    margin: 0 0 100px
+
+  .expert-photo
+    width: 150px
+    height: 150px
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px)
@@ -95,6 +101,21 @@
   .credits-before-content
     max-width: 400px
 
+  .expert-col
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    margin: 0 auto 30px
+
+  .news-box__img
+    width: 180px
+    height: 190px
+
+  .news-box__body
+    width: calc(100% - 180px)
+
+
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px)
   .home-slider-item__img
@@ -118,6 +139,25 @@
 
   .credits-before
     margin: 50px 0 0
+
+  .experts-page
+    margin: 0 0 60px
+
+  .question-expert
+    padding: 30px
+
+  .nav-tab-comparison .nav-item
+    flex: auto
+    width: 33.3%
+    margin: 0 -1px 5px 0
+    &:first-child, &:last-child
+      .nav-link
+        border-radius: 20px
+    .nav-link
+      border-radius: 20px
+
+  .subscribe-box
+    margin: 30px 0
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 576px)
@@ -207,7 +247,45 @@
 
   .pagination li
     margin: 0 5px 0 0
-    
+
+  .question-expert-item
+    flex-wrap: wrap
+    padding: 0 0 20px
+    margin: 0 0 20px
+    &__left
+      padding: 0
+      width: 100%
+      margin: 0 0 20px
+    .date
+      text-align: left
+
+  .question-expert
+    margin: 30px 0 0
+
+  .nav-tab-comparison .nav-item
+    width: 50%
+
+  .popular-offers-v2
+    padding: 0 0 40px
+
+  .news-box__body
+    width: 100%
+    padding: 20px 0 0
+
+  .news-box__img
+    height: 260px
+    width: 100%
+
+  .news-box__name
+    font-size: 22px
+
+  .subscribe-box h3
+    font-size: 22px
+    margin: 0 auto 20px
+    br
+      display: none
+
+
 @media only screen and (max-width: 480px)
   header
     .location
@@ -226,6 +304,10 @@
 
   h1
     font-size: 26px
+
+  .offer-box
+    max-width: 280px
+    margin: 0 auto
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 320px)
