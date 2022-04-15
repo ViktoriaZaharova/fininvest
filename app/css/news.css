@@ -14,30 +14,32 @@
     margin: 0 auto 38px;
     font-size: 21px;
     font-weight: bold; }
-  .subscribe-box .form-subscribe input {
-    border-radius: 0;
-    border-bottom: 1px solid #01A2FF;
-    background: transparent;
-    color: #9D9D9D;
-    padding: 0 0 11px;
-    height: 26px;
-    font-size: 12px; }
-    .subscribe-box .form-subscribe input::-webkit-input-placeholder {
-      color: #9D9D9D; }
-    .subscribe-box .form-subscribe input::-moz-placeholder {
-      color: #9D9D9D; }
-    .subscribe-box .form-subscribe input::-ms-input-placeholder {
-      color: #9D9D9D; }
-    .subscribe-box .form-subscribe input::placeholder {
-      color: #9D9D9D; }
-  .subscribe-box .form-subscribe label {
-    width: 100%;
+  .subscribe-box .form-subscribe {
     max-width: none; }
-  .subscribe-box .form-subscribe button {
-    position: relative;
-    margin: 40px auto 0;
-    font-size: 13px;
-    padding: 0 35px; }
+    .subscribe-box .form-subscribe input {
+      border-radius: 0;
+      border-bottom: 1px solid #01A2FF;
+      background: transparent;
+      color: #9D9D9D;
+      padding: 0 0 11px;
+      height: 26px;
+      font-size: 12px; }
+      .subscribe-box .form-subscribe input::-webkit-input-placeholder {
+        color: #9D9D9D; }
+      .subscribe-box .form-subscribe input::-moz-placeholder {
+        color: #9D9D9D; }
+      .subscribe-box .form-subscribe input::-ms-input-placeholder {
+        color: #9D9D9D; }
+      .subscribe-box .form-subscribe input::placeholder {
+        color: #9D9D9D; }
+    .subscribe-box .form-subscribe label {
+      width: 100%;
+      max-width: none; }
+    .subscribe-box .form-subscribe button {
+      position: relative;
+      margin: 40px auto 0;
+      font-size: 13px;
+      padding: 0 35px; }
 
 .banner-box {
   width: 100%;
@@ -157,7 +159,8 @@
   .news-box-author__name {
     width: calc(100% - 39px);
     padding: 0 0 0 12px;
-    font-size: 14px; }
+    font-size: 14px;
+    line-height: normal; }
     .news-box-author__name h3 {
       font-weight: 500;
       margin: 0 0 4px;

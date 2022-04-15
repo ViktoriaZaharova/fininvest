@@ -24,6 +24,9 @@
     width: 150px
     height: 150px
 
+  .price
+    font-size: 22px
+
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px)
   header
@@ -159,6 +162,15 @@
   .subscribe-box
     margin: 30px 0
 
+  .quote
+    margin: 30px 0
+    padding: 0 0 0 40px
+    &:before
+      left: 0
+
+  .home-catalog-wrapper
+    padding: 30px 40px
+
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 576px)
   .home-slider-item__img
@@ -285,6 +297,19 @@
     br
       display: none
 
+  .article-item .news-box__head
+    flex-wrap: wrap
+    .news-box-author
+      width: 100%
+      margin: 0 0 10px
+    .news-box-date
+      margin: 0
+
+  .box-video
+    height: 300px
+
+  .article-image-max
+    height: 400px
 
 @media only screen and (max-width: 480px)
   header
@@ -298,6 +323,7 @@
     width: 100%
     justify-content: center
     margin: 0 auto 5px
+    flex: auto
 
   h2
     font-size: 23px
@@ -309,8 +335,23 @@
     max-width: 280px
     margin: 0 auto
 
-/* Custom, iPhone Retina */
-@media only screen and (max-width: 320px)
-  /**/
+  .best-offers-box
+    flex-wrap: wrap
+    padding: 20px
+    &__left, &__right
+      width: 100%
+    &__left
+      border: none
+        bottom: 1px solid #DADADA
+      padding: 0 0 10px
+    &__right
+      padding: 10px 0 0
 
+  .price
+    margin: 20px 0 0
 
+  .best-offers-box-month
+    padding: 0
+
+  .question-v2
+    margin: 40px 0

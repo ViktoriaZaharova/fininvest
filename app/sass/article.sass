@@ -1,6 +1,9 @@
 @import "vars"
 
 /*==========  section article ==========*/
+.article-page
+  margin: 0 0 52px
+
 .news-box-date-grey
   .news-box-date__icon
     fill: $grey
@@ -10,6 +13,11 @@
   height: 276px
   background: #9D9D9D
   margin: 0 0 37px
+
+.article-image-max
+  width: 100%
+  background: #9D9D9D
+  height: 502px
 
 .credits-before-v2
   margin: 0 0 74px
@@ -25,9 +33,117 @@
   h2
     margin: 23px 0 21px
     line-height: normal
-  h3
+  >h3
     margin: 21px 0
     font-weight: bold
     font-size: 18px
+  .news-box__head
+    margin: 0 0 16px
+
+.box-video
+  display: flex
+  align-items: center
+  justify-content: center
+  background: #9D9D9D
+  max-width: 582px
+  height: 326px
+  margin: 0 0 38px
+
+.list-check
+  li
+    position: relative
+    margin: 0 0 20px
+    padding: 0 0 0 30px
+    &:last-child
+      margin: 0
+    &:before
+      content: ''
+      position: absolute
+      left: 0
+      top: 6px
+      width: 13px
+      height: 10px
+      background: url("../img/check.svg") no-repeat center
+        size: 100%
+
+
+.quote
+  margin: 56px 0
+  position: relative
+  display: flex
+  align-items: flex-start
+  text-align: center
+  font-weight: bold
+  padding: 0 0 0 100px
+  &:before
+    content: ''
+    background: url("../img/quote.svg") no-repeat center
+      size: 100%
+    width: 33px
+    height: 26px
+    position: absolute
+    left: 40px
+    top: 0
+  p
+    max-width: 678px
+
+.best-offers
+  margin: 0 0 40px
+
+
+.best-offers-box
+  width: 100%
+  height: 100%
+  background: #fff
+  box-shadow: 0px 0px 14px rgba(0, 53, 102, 0.13)
+  border-radius: 5px
+  display: flex
+  align-items: stretch
+  padding: 14px 11px 14px 15px
+  font-size: 14px
+  line-height: normal
+  .box-text
+    line-height: normal
+  .news-box-date
+    margin: 0 0 19px
+    font-weight: bold
+    color: #000
+    font-size: 14px
+  &__left, &__right
+    width: 50%
+  &__left
+    border-right: 1px solid #DADADA
+    padding: 5px 12px 0 10px
+    display: flex
+    flex-direction: column
+  h3
+    margin: 0 0 6px
+    font-weight: bold
+    font-size: 16px
+  &__right
+    padding: 5px 0 0 15px
+  .btn
+    padding: 0
+    width: 100%
+    margin: 28px 0 0
+  &__time
+    margin: 21px 0 0
+    color: $accent
+
+.comment-text
+  font-size: 14px
+  color: #9D9D9D
+
+.price
+  margin: auto 0 6px
+  font-weight: bold
+  font-size: 25px
+
+.percent
+  color: #9D9D9D
+  font-size: 12px
+
+
+
 
 /*==========  section article end  ==========*/
