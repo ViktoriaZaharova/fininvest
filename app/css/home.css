@@ -447,7 +447,9 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 0 10px; }
+  padding: 5px 10px; }
+  .partners-box img {
+    max-height: 100%; }
 
 /*==========  section partners end  ==========*/
 /*==========  section seo-section ==========*/
